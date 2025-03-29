@@ -1,0 +1,24 @@
+# Minimal requirements for LlamaClaims
+fastapi>=0.104.1
+uvicorn[standard]>=0.23.2
+python-multipart>=0.0.6
+pydantic>=2.4.2
+python-dotenv>=1.0.0
+httpx>=0.25.1
+
+# Machine Learning (minimal)
+torch>=2.1.0; platform_system != "Darwin" or platform_machine != "arm64"
+transformers>=4.35.0
+huggingface-hub>=0.17.3
+sentencepiece>=0.1.99
+tokenizers>=0.14.1
+
+# Apple Silicon Optimization
+mlx>=0.5.0; platform_system == "Darwin" and platform_machine == "arm64"
+
+# Data Handling
+numpy>=1.26.1
+tqdm>=4.66.1
+
+# Utilities
+rich>=13.6.0 

@@ -1,0 +1,22 @@
+REPLACE THIS FILE WITH A FAVICON IMAGE
+
+You should replace this placeholder with an actual favicon image file.
+Recommended formats: PNG or ICO with transparent background.
+Recommended size: 32x32 pixels or larger (ideally with multiple sizes: 16x16, 32x32, 48x48).
+Recommended filename: favicon.png or favicon.ico
+
+A favicon is the small icon displayed in browser tabs and bookmarks.
+It should be a simplified version of your main logo that works well at small sizes.
+
+For LlamaClaims, consider:
+- A simplified llama head icon
+- The letter "L" in your brand font/style
+- A simple document or insurance-related symbol
+
+You can create a favicon using:
+1. Online favicon generators
+2. Image editing software like GIMP, Photoshop, or Pixelmator
+3. Converting your main logo to a smaller, simplified version
+
+Once you have a favicon, replace this text file with the image file
+and ensure it's correctly referenced in the mkdocs.yml configuration file. 

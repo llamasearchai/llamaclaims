@@ -1,0 +1,24 @@
+REPLACE THIS FILE WITH A LOGO IMAGE
+
+You should replace this placeholder with an actual logo image file.
+Recommended formats: PNG or SVG with transparent background.
+Recommended size: 150x150 pixels or larger.
+Recommended filename: logo.png or logo.svg
+
+You can create a simple logo using:
+1. Online tools like Canva, LogoMakr, or Looka
+2. AI image generators like DALL-E, Midjourney, or Stable Diffusion
+3. Hiring a designer on platforms like Fiverr or 99designs
+
+A good logo for LlamaClaims might feature:
+- A llama mascot
+- Insurance or document-related imagery
+- A modern, clean design with blue/indigo color scheme
+
+The logo will be displayed in:
+- The documentation site header
+- README.md
+- Potentially in the web UI
+
+Once you have a logo, replace this text file with the image file
+and update any references in the code as needed. 

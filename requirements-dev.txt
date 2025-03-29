@@ -1,0 +1,28 @@
+# Include all requirements from the main file
+-r requirements.txt
+
+# Testing
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+requests-mock>=1.11.0
+coverage>=7.3.2
+
+# Linting and formatting
+black>=23.10.1
+isort>=5.12.0
+mypy>=1.6.1
+flake8>=6.1.0
+pylint>=3.0.2
+
+# Documentation
+mkdocs>=1.5.3
+mkdocs-material>=9.4.7
+mkdocstrings>=0.23.0
+mkdocstrings-python>=1.7.3
+
+# Development tools
+pre-commit>=3.5.0
+ipython>=8.16.1
+jupyter>=1.0.0 

@@ -1,0 +1,80 @@
+/* LlamaClaims Custom Styles */
+
+/* Primary color customization */
+:root {
+  --md-primary-fg-color: #4051b5;
+  --md-primary-fg-color--light: #8f8bbd;
+  --md-primary-fg-color--dark: #242d81;
+  --md-accent-fg-color: #536dfe;
+}
+
+/* Logo adjustments */
+.md-logo img {
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+}
+
+/* Custom container styling */
+.llamaclaims-container {
+  padding: 1rem;
+  margin: 1.5rem 0;
+  border-left: 0.2rem solid var(--md-primary-fg-color);
+  border-radius: 0.1rem;
+  background-color: rgba(64, 81, 181, 0.05);
+}
+
+/* Code block styling */
+.md-typeset pre > code {
+  border-radius: 0.2rem;
+}
+
+/* Admonition customization */
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: var(--md-primary-fg-color);
+}
+
+.md-typeset .admonition.tip > .admonition-title,
+.md-typeset details.tip > .admonition-title {
+  background-color: rgba(64, 81, 181, 0.1);
+}
+
+.md-typeset .admonition.tip > .admonition-title::before,
+.md-typeset details.tip > summary::before {
+  background-color: var(--md-primary-fg-color);
+}
+
+/* Footer customization */
+.md-footer-meta {
+  background-color: var(--md-primary-fg-color--dark);
+}
+
+/* Table styling */
+.md-typeset table:not([class]) {
+  font-size: 0.75rem;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: rgba(64, 81, 181, 0.1);
+  font-weight: bold;
+}
+
+/* API reference styling */
+.doc-attribute, .doc-function, .doc-class {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 0.2rem solid var(--md-primary-fg-color);
+  border-radius: 0.1rem;
+}
+
+.doc-heading code {
+  font-weight: bold;
+  color: var(--md-primary-fg-color--dark);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 76.1875em) {
+  .md-nav--primary .md-nav__title {
+    background-color: var(--md-primary-fg-color);
+  }
+} 

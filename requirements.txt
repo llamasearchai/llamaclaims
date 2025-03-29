@@ -1,0 +1,51 @@
+# Core dependencies
+fastapi>=0.104.1
+uvicorn[standard]>=0.23.2
+python-multipart>=0.0.6
+pydantic>=2.4.2
+pydantic-settings>=2.0.3
+python-dotenv>=1.0.0
+
+# Machine Learning
+torch>=2.1.0; platform_system != "Darwin" or platform_machine != "arm64"
+torchvision>=0.16.0; platform_system != "Darwin" or platform_machine != "arm64"
+transformers>=4.35.0
+huggingface-hub>=0.17.3
+sentencepiece>=0.1.99
+protobuf>=4.24.4
+tokenizers>=0.14.1
+onnx>=1.14.1
+
+# Apple Silicon Optimization
+mlx>=0.5.0; platform_system == "Darwin" and platform_machine == "arm64"
+# Note: MLX is only installed on Apple Silicon devices
+
+# Image Processing
+pillow>=10.1.0
+pdf2image>=1.16.3
+pytesseract>=0.3.10
+
+# Data Handling
+numpy>=1.26.1
+pandas>=2.1.2
+tqdm>=4.66.1
+boto3>=1.28.62
+httpx>=0.25.1
+
+# Utilities
+psutil>=5.9.6
+pytz>=2023.3.post1
+rich>=13.6.0
+typer>=0.9.0
+pyyaml>=6.0.1
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# Development and Testing
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+pytest-cov>=4.1.0
+black>=23.10.1
+isort>=5.12.0
+mypy>=1.6.1
+flake8>=6.1.0 

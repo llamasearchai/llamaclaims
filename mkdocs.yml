@@ -1,0 +1,92 @@
+site_name: LlamaClaims
+site_url: https://llamasearchai.github.io/llamaclaims/
+site_description: AI-powered insurance claims processing platform
+site_author: LlamaSearch AI
+
+repo_name: llamasearchai/llamaclaims
+repo_url: https://github.com/llamasearchai/llamaclaims
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: indigo
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - content.code.copy
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - autorefs
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_source: true
+            docstring_style: google
+
+nav:
+  - Home: index.md
+  - User Guide:
+    - Getting Started: user_guide/getting_started.md
+    - Installation: user_guide/installation.md
+    - Configuration: user_guide/configuration.md
+    - Processing Claims: user_guide/processing_claims.md
+    - Analysis Reports: user_guide/analysis_reports.md
+    - Models & Optimization: user_guide/models.md
+  - API Reference:
+    - Overview: api_reference/overview.md
+    - Claims API: api_reference/claims.md
+    - Analysis API: api_reference/analysis.md
+    - Models API: api_reference/models.md
+    - Authentication: api_reference/authentication.md
+  - Developer Guide:
+    - Architecture: developer_guide/architecture.md
+    - Contributing: developer_guide/contributing.md
+    - Code Style: developer_guide/code_style.md
+    - Testing: developer_guide/testing.md
+    - MLX Optimization: developer_guide/mlx_optimization.md
+  - Deployment:
+    - Requirements: deployment/requirements.md
+    - Docker: deployment/docker.md
+    - Kubernetes: deployment/kubernetes.md
+    - Cloud: deployment/cloud.md
+  - Examples:
+    - Basic Usage: examples/basic_usage.md
+    - Advanced Scenarios: examples/advanced_scenarios.md
+    - API Client: examples/api_client.md
+    - Benchmarking: examples/benchmarking.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/llamasearchai
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/llamasearchai
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/llamasearchai
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: Copyright &copy; 2024 LlamaSearch AI 
