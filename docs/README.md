@@ -62,7 +62,7 @@ Alternatively, you can use the provided deploy script:
 
 ## Documentation Structure
 
-- `docs/index.md`: Home page
+- `docs/index.html`: Home page
 - `docs/user_guide/`: User guide documentation
 - `docs/api_reference/`: API reference documentation
 - `docs/developer_guide/`: Documentation for developers
@@ -81,7 +81,7 @@ Alternatively, you can use the provided deploy script:
 
 - Use ATX-style headers (`#` for main headers, `##` for subheaders)
 - Use fenced code blocks with language specifiers (````python`)
-- Use relative links for internal links (`[link text](../path/to/file.md)`)
+- Use relative links for internal links (`[link text](../path/to/file.html)`)
 - Use reference-style links for external links
 - Include alt text for all images
 - Keep lines to a reasonable length (80-100 characters)
