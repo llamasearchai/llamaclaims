@@ -8,9 +8,9 @@
 
 [![PyPI version](https://img.shields.io/badge/pypi-v0.1.0-blue.svg)](https://pypi.org/project/llamaclaims/)
 [![Python](https://img.shields.io/badge/python-3.9+-blue.svg)](https://pypi.org/project/llamaclaims/)
-[![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://llamasearchai.github.io/llamaclaims/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/llamasearchai/llamaclaims/blob/main/LICENSE)
-[![Tests](https://img.shields.io/github/workflow/status/llamasearchai/llamaclaims/CI)](https://github.com/llamasearchai/llamaclaims/actions)
+[![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://llamasearch.ai
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://llamasearch.ai
+[![Tests](https://img.shields.io/github/workflow/status/llamasearchai/llamaclaims/CI)](https://llamasearch.ai
 
 </div>
 
@@ -61,7 +61,7 @@ pip install llamaclaims
 
 ```bash
 # Clone the repository
-git clone https://github.com/llamasearchai/llamaclaims.git
+git clone https://llamasearch.ai
 cd llamaclaims
 
 # Create virtual environment
@@ -159,7 +159,7 @@ llamaclaims/
 
 ## 📖 Documentation
 
-For full documentation, visit [llamasearchai.github.io/llamaclaims](https://llamasearchai.github.io/llamaclaims/)
+For full documentation, visit [llamasearchai.github.io/llamaclaims](https://llamasearch.ai
 
 ### Building the Documentation
 
@@ -206,7 +206,7 @@ python examples/benchmark_mlx_vs_pytorch.py
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please read our [Contributing Guidelines](https://llamasearchai.github.io/llamaclaims/developer_guide/contributing/) for details on how to submit pull requests, the development workflow, and coding standards.
+Contributions are welcome! Please read our [Contributing Guidelines](https://llamasearch.ai for details on how to submit pull requests, the development workflow, and coding standards.
 
 ## 📄 License
 
